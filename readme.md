@@ -119,5 +119,5 @@ express
   .put("/:id", this.updateById);
   .use(AuthorizationService.hasPermission("delete:blog"))
   // requires permission to reach this point
-  .delete("/:id", this.deleteById);
+  .delete("/:id", this.deleteById);ff36f79d5bbf96481b38d882a9561ebc59950ee3
 ```
